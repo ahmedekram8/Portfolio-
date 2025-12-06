@@ -257,7 +257,14 @@ body {
     color: var(--accent);
     margin-bottom: 6px;
 }
-
+.project-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: block;
+}
 /* ===============================
    FOOTER
 ================================*/
