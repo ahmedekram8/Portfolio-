@@ -274,6 +274,7 @@ body {
     object-fit: cover;
     border-radius: 6px;
     margin-bottom: 10px;
+    display: block;
 }
 /* ===============================
    FOOTER
