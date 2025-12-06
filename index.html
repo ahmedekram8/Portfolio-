@@ -121,13 +121,29 @@ fetch("data.json")
     // Projects
     const projDiv = document.getElementById("projects");
     data.projects.forEach(p => {
-      projDiv.innerHTML += `
-        <div class="project">
-          <h4>${p.title}</h4>
-          <p class="tech">${p.tech}</p>
-          <ul>${p.points.map(x => `<li>${x}</li>`).join("")}</ul>
-        </div>`;
-    });
+
+  let imageHTML = "";
+  if (p.image && p.image.trim() !== "") {
+      imageHTML = `<img src="${p.image}" class="project-img" alt="${p.title}">`;
+  }
+
+  projDiv.innerHTML += `
+    <a href="${p.link || "#"}" target="_blank" class="project-link">
+      <div class="project">
+
+        ${imageHTML}
+
+        <h4>${p.title}</h4>
+        <p class="tech">${p.tech}</p>
+
+        <ul>
+          ${p.points.map(point => `<li>${point}</li>`).join("")}
+        </ul>
+
+      </div>
+    </a>
+  `;
+});
 
     // Education
     document.getElementById("education").innerHTML = `
