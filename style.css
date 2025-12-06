@@ -41,16 +41,78 @@ body {
     padding: 40px 20px 60px;
 }
 
-/* ===============================
-   HEADER AREA
-================================*/
+/* ============================
+   HEADER SECTION (FINAL)
+============================ */
+
 .header {
-    display: grid;
-    grid-template-columns: calc(var(--photo-size) + 20px) 1fr;
-    gap: 30px;
+    display: flex;
     align-items: center;
-    padding-bottom: 25px;
-    border-bottom: 1px solid #222;
+    gap: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+/* Profile Image */
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-photo img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Right side content */
+.right-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-info h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.top-info h2 {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 5px 0 15px;
+}
+
+/* Contact info */
+.contact-under-name p {
+    margin: 5px 0;
+}
+
+.contact-under-name span {
+    font-weight: bold;
+}
+
+/* ============================
+   MOBILE RESPONSIVE FIX
+============================ */
+@media (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-photo img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .right-content {
+        align-items: center;
+    }
 }
 
 /* PHOTO */
