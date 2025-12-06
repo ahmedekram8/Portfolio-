@@ -1,0 +1,62 @@
+{
+  "name": "Ahmed Ekram",
+  "role": "DevOps Engineer",
+  "email": "ahmedekramalsada@gmail.com",
+  "linkedin": "ahmedekramalsada",
+  "github": "ahmedekramalsada",
+
+  "summary": "DevOps Engineer with strong expertise in Docker, Kubernetes, AWS, CI/CD and infrastructure automation. Focused on building scalable, reliable, and secure cloud environments.",
+
+  "skills": {
+    "Containerization & Orchestration": ["Docker", "Kubernetes", "Helm"],
+    "Infrastructure & Automation": ["Terraform", "Ansible", "Linux", "Bash"],
+    "Cloud Platforms": ["AWS EC2", "S3", "IAM", "VPC", "CloudWatch"],
+    "Networking & Security": ["CCNA-level Networking", "Security Hardening"],
+    "CI/CD & Monitoring": ["Git", "Jenkins", "SonarQube"],
+    "Virtualization": ["Proxmox", "VMware"]
+  },
+
+  "experience": [
+    {
+      "title": "DevOps Intern",
+      "company": "National Telecommunication Institute (NTI), Smart Village",
+      "date": "Sep 2025 – Apr 2026",
+      "tasks": [
+        "Completed 600+ hours of intensive training including DevOps, cloud, Linux, networking, and automation.",
+        "Built end-to-end CI/CD pipelines for automated deployment.",
+        "Gained strong experience in AWS, Docker, Kubernetes, and Terraform.",
+        "Improved communication and teamwork through structured projects."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "DevOps CI/CD Pipeline",
+      "tech": "Git, Jenkins, SonarQube, Docker",
+      "points": [
+        "Designed and automated CI/CD pipeline to speed up deployments.",
+        "Integrated SonarQube for security and quality analysis."
+      ]
+    },
+    {
+      "title": "AWS Cloud Infrastructure",
+      "tech": "AWS EC2, S3, IAM, VPC, CloudWatch",
+      "points": [
+        "Set up scalable and secure AWS infrastructure.",
+        "Implemented monitoring and alerting with CloudWatch."
+      ]
+    }
+  ],
+
+  "education": {
+    "degree": "Bachelor of Engineering in Communications and Electronics Engineering",
+    "school": "Modern Academy University",
+    "year": "2023"
+  },
+
+  "languages": [
+    "Arabic – Native",
+    "English – Intermediate"
+  ]
+}
